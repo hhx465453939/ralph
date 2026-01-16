@@ -1,6 +1,17 @@
 # Ralph
 
 # 小黄魔改版本，直接把.claude复制到你的项目路径,启动CC，根据.claude里面的README操作即可，环境=amp+jq
+## 项目依赖amp，免费版没办法直接调用脚本或者ralph，小黄觉得不爽，不过他这个项目的PRD skill不错，可以把自己写的宏伟愿景用它的/prd拆分一下，然后用yolo模式启动原神，rang cc黑奴前前台蹬就完事了，俺心思着，可以优化出一个子agent系统，一个任务一个agnet，完成以后关闭窗口，把ralph的skill再扩充一个新的
+## 于是就有了/ralph-yolo，散户神器，只要用yolo模式进入，即可机械飞升，也就费一点token，但是国内这个token套餐就是让你站起来蹬的
+
+```bash
+# 启动原神
+claude --permission-mode bypassPermissions
+
+# 开导
+/prd 请帮我写一个用于/ralph-yolo使用的PRD，并在文档输出以后直接启动/ralph-yolo进行开发，用以实现以下功能：XXX;
+
+```
 
 ![Ralph](ralph.webp)
 
