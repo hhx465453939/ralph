@@ -1,5 +1,7 @@
 # Ralph
 
+# 小黄魔改版本，直接把.claude复制到你的项目路径,启动CC，根据.claude里面的README操作即可，环境=amp+jq
+
 ![Ralph](ralph.webp)
 
 Ralph is an autonomous AI agent loop that runs [Amp](https://ampcode.com) repeatedly until all PRD items are complete. Each iteration is a fresh Amp instance with clean context. Memory persists via git history, `progress.txt`, and `prd.json`.
